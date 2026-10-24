@@ -6,6 +6,10 @@ Pure Python. No root, no hooking framework, no mock-location provider — the wh
 on the wire format alone: pull checkpoints, compose a closed course, synthesise 3 s GPS samples,
 assemble the record payload, dispatch it.
 
+> **License: non-commercial only.** Personal study, research and testing are permitted; any
+> commercial use, resale, or paid service built on this code is not. See [LICENSE](LICENSE)
+> (PolyForm Noncommercial 1.0.0).
+
 ---
 
 ## 1. Scope
@@ -109,7 +113,9 @@ from the same arrays that are submitted, so the record is internally consistent.
   pipeline is unchanged.
 - For personal research and interface testing only. You are responsible for how the generated
   records are used against any service.
+- Commercial use is not granted. If you need a commercial license, contact the author.
 
 ## 8. License
 
-MIT
+[PolyForm Noncommercial 1.0.0](LICENSE) — non-commercial use only. No commercial use, resale, or
+incorporation into a paid product or service is permitted without a separate written license.
