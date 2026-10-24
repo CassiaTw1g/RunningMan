@@ -1,0 +1,22 @@
+# credentials and runtime artefacts
+token.txt
+SR_TOKEN
+sms.key
+captcha.png
+captcha.key
+payload*.json
+auth.json
+logininfo.json
+DCStorage*.db
+*.log
+__pycache__/
+*.pyc
+.venv/
+venv/
+.idea/
+.vscode/
+
+# local screenshots
+*.png
+*.jpg
+!assets/*.png
