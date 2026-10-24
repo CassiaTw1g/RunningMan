@@ -115,7 +115,16 @@ from the same arrays that are submitted, so the record is internally consistent.
   records are used against any service.
 - Commercial use is not granted. If you need a commercial license, contact the author.
 
-## 8. License
+## 8. Disclaimer
+
+Provided **"as is"**, without warranty of any kind regarding completeness, security, or fitness for
+purpose. Users assume **sole and complete responsibility** for downloading, deploying, running,
+modifying and redistributing this software, and for every input, output and consequence arising from
+it, including any civil, administrative or criminal liability. The author and contributors accept no
+liability — direct, indirect, incidental or consequential — for any damage resulting from misuse.
+Full text: [DISCLAIMER.md](DISCLAIMER.md).
+
+## 9. License
 
 [PolyForm Noncommercial 1.0.0](LICENSE) — non-commercial use only. No commercial use, resale, or
 incorporation into a paid product or service is permitted without a separate written license.
