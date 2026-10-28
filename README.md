@@ -102,6 +102,7 @@ from the same arrays that are submitted, so the record is internally consistent.
 │   └── marker_imgs.json      start/finish marker icons (base64)
 ├── docs/
 │   ├── tutorial.md           setup and operation guide
+│   ├── scheduling.md         randomised daily scheduling recipe
 │   └── ai-quickstart.md      one-shot prompt for AI agents
 └── requirements.txt
 ```
