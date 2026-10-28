@@ -56,7 +56,7 @@ Read the output and check:
 - `early-approach 0`
 - distance inside 5.01–5.10 km, never above 5.5 km
 - average pace 7'20"–7'40" /km
-- adjacent per-km splits differ by at least 5 s
+- adjacent per-km splits differ by at least 5 s, and stay within ±30 s of the average
 
 Only proceed when all of the above hold.
 
@@ -74,7 +74,7 @@ A successful call returns `{"errno":0,"data":{"id":<record id>}}`.
 |---|---|
 | `--km 5.05` | fixed distance (omit for a random 5.01–5.10 km) |
 | `--pace 450` | average pace in seconds per km (450 = 7'30") |
-| `--spread 11` | per-km pace jitter in seconds |
+| `--spread 30` | per-km pace jitter in seconds (default ±30 s) |
 | `--gpx route.gpx` | run along a custom GPX course |
 | `--dry` | generate only, no upload |
 

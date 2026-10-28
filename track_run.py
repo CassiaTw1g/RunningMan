@@ -164,7 +164,7 @@ def main():
     ap.add_argument("--pace", type=int, default=450, help="seconds per km (default 7'30\")")
     ap.add_argument("--weight", type=float, default=55)
     ap.add_argument("--gpx", default=None, help="custom route GPX")
-    ap.add_argument("--spread", type=float, default=11.0, help="per-km pace jitter in seconds")
+    ap.add_argument("--spread", type=float, default=30.0, help="per-km pace jitter in seconds")
     ap.add_argument("--dry", action="store_true")
     args = ap.parse_args()
 

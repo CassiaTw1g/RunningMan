@@ -20,7 +20,7 @@ Act as a local ops agent inside this repo (RunningMan). Complete one activity-re
    - zero early-approach violations
    - distance within 5.01–5.10 km and <= 5.5 km
    - average pace between 7'20" and 7'40" per km
-   - adjacent per-km split deltas >= 5 s
+   - adjacent per-km split deltas >= 5 s and each split within ±30 s of the average
 5. Print the dry-run metrics as a 4-column table and wait for my confirmation.
 6. Run `python track_run.py`, capture `data.id`.
 7. Verify with `POST {BASE}/mobile/api/h5/sports/querySportsUserRecord/{id}`: distance, timeCount,

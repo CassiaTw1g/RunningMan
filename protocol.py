@@ -326,7 +326,7 @@ def fmt_pace(sec_per_km):
 
 
 def build_payload(token_ctx, route_pts, waypoints, threshold, start_dt, pace_s, weight, client_id,
-                  device_info, marker_imgs, km_spread=11.0):
+                  device_info, marker_imgs, km_spread=30.0):
     """km_spread: per-km pace jitter in seconds; adjacent splits differ by >=5 s."""
     dt = 3                                   # nominal sampling interval
     n = len(route_pts)

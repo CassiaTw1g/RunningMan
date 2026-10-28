@@ -60,7 +60,7 @@ export SR_TOKEN="<jwt>"                 # Windows: set SR_TOKEN=...
 
 python track_run.py --dry               # generate only, print the metrics
 python track_run.py                     # generate and dispatch
-python track_run.py --km 5.05 --pace 450 --spread 11
+python track_run.py --km 5.05 --pace 450 --spread 30
 python track_run.py --gpx my_route.gpx  # custom course along real roads
 ```
 
@@ -80,7 +80,7 @@ upload: { "errno":0, "data":{ "id":7269450 } }
 |---|---|---|
 | Distance | 5.01–5.10 km | randomised per run, hard ceiling 5.5 km, closed-loop regression calibration |
 | Average pace | 7'30"/km | `--pace` |
-| Per-km jitter | ±11 s | `--spread`; adjacent splits forced ≥5 s apart, then re-centred on the mean |
+| Per-km jitter | ±30 s | `--spread`; adjacent splits forced ≥5 s apart, then re-centred on the mean |
 | Sampling | 3 s | matches the client's location-interval configuration |
 | GPS noise | σ = 0.6 m | on top of the template's own noise |
 
